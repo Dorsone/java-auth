@@ -13,33 +13,33 @@ Follow these steps to install and run the Java Spring Maven project from the pro
 
 Open a terminal or command prompt and execute the following command to clone the repository to your local machine:
 
-```bash
+```
 git clone https://github.com/Dorsone/java-auth.git
 ```
 
 ### 2. Navigate to the Project Directory
 Change into the project directory with this command:
 
-```bash
+```
 cd java-auth
 ```
 
 ### 3. Build the Project with Maven
 Build the project using Maven to compile the project and download all necessary dependencies:
 
-```bash
+```
 mvn clean install
 ```
 To compile the project without running tests (to save time), use:
 
-```bash
+```
 mvn clean install -DskipTests
 ```
 
 ### 4. Run the Application
 If it's a Spring Boot application, start it using the following Maven command:
 
-```bash
+```
 mvn spring-boot:run
 ```
 This command launches the Spring Boot application, which includes running an embedded web server, making the application accessible through a web browser.
